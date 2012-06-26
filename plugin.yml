@@ -1,0 +1,11 @@
+name: MCNoTarget
+main: pgDev.bukkit.MCNoTarget.MCNoTarget
+version: 0.1
+author: PG Dev Team
+authors: [Devil Boy]
+description: NoTarget just as you remember it!
+
+permissions:
+    mcnotarget.enabled:
+        default: op
+        description: Is not targeted by hostile mobs
