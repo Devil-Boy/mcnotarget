@@ -6,6 +6,66 @@ authors: [Devil Boy]
 description: NoTarget just as you remember it!
 
 permissions:
-    mcnotarget.enabled:
+    mcnotarget.*:
         default: op
-        description: Is not targeted by hostile mobs
+        description: Is not targeted by any hostile mobs
+        children:
+            mcnotarget.blaze: true
+            mcnotarget.cavespider: true
+            mcnotarget.creeper: true
+            mcnotarget.enderdragon: true
+            mcnotarget.ghast: true
+            mcnotarget.giant: true
+            mcnotarget.magmacube: true
+            mcnotarget.pigzombie: true
+            mcnotarget.silverfish: true
+            mcnotarget.skeleton: true
+            mcnotarget.slime: true
+            mcnotarget.spider: true
+            mcnotarget.wolf: true
+            mcnotarget.zombie: true
+    mcnotarget.blaze:
+        default: op
+        description: Is not targeted by blazes
+    mcnotarget.cavespider:
+        default: op
+        description: Is not targeted by cavespiders
+    mcnotarget.creeper:
+        default: op
+        description: Is not targeted by creepers
+    mcnotarget.enderdragon:
+        default: op
+        description: Is not targeted by enderdragons
+    mcnotarget.enderman:
+        default: op
+        description: Is not targeted by endermen
+    mcnotarget.ghast:
+        default: op
+        description: Is not targeted by ghasts
+    mcnotarget.giant:
+        default: op
+        description: Is not targeted by blazes
+    mcnotarget.magmacube:
+        default: op
+        description: Is not targeted by magmacubes
+    mcnotarget.pigzombie:
+        default: op
+        description: Is not targeted by pigmen
+    mcnotarget.silverfish:
+        default: op
+        description: Is not targeted by silverfish
+    mcnotarget.skeleton:
+        default: op
+        description: Is not targeted by skeletons
+    mcnotarget.slime:
+        default: op
+        description: Is not targeted by slimes
+    mcnotarget.spider:
+        default: op
+        description: Is not targeted by spiders
+    mcnotarget.wolf:
+        default: op
+        description: Is not targeted by wolves
+    mcnotarget.zombie:
+        default: op
+        description: Is not targeted by zombies
